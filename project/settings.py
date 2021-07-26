@@ -44,4 +44,4 @@ TIME_ZONE = "Europe/Moscow"
 
 USE_TZ = True
 
-DEBUG = env.bool("DEBUG")
+DEBUG = env.bool("DEBUG", default=False)
